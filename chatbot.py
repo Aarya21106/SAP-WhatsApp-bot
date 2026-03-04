@@ -36,9 +36,7 @@ def compare_universities(index1, index2):
     print("Tuition Fee:", uni1["tuition_fee"])
     print("Living Cost:", uni1["estimated_living_cost_per_month"])
     print("Strengths:", ", ".join(uni1["strengths"]))
-
     print("\n--------------------------------")
-
     print("\nUniversity 2:", uni2["name"])
     print("City:", uni2["city"])
     print("Tuition Fee:", uni2["tuition_fee"])
